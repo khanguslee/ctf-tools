@@ -37,3 +37,12 @@ tcp/udp protocol instead.
 
 For redis <v7 you can run commands via the gopher protocol.
 See https://maxchadwick.xyz/blog/ssrf-exploits-against-redis for more information
+
+### `pyyaml_exploit.py`
+
+Tool to generate a pyyaml payload that can run a command.
+Exploit exists for pyyaml <v5.4
+
+### `pickle_exploit.py`
+
+Tool to generate a base64 encoded pickle payload that can run a command.
