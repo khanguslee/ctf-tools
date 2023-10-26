@@ -33,3 +33,7 @@ This tool is similar to the `netcat` CLI tool.
 If you need to communicate to a non-http server, you might sometimes need to communicate via 
 tcp/udp protocol instead.
 
+### `redis_gopher.py`
+
+For redis <v7 you can run commands via the gopher protocol.
+See https://maxchadwick.xyz/blog/ssrf-exploits-against-redis for more information
